@@ -1,14 +1,17 @@
+
+USE cardealership;
+
 -- 1. Get all dealerships 
 
-
+SELECT * FROM dealerships;
 
 -- 2. Find all vehicles for a specific dealership 
 
-
+SELECT * FROM dealerships WHERE dealership_id = 3;
 
 -- 3. Find a car by VIN 
 
-
+SELECT * FROM vehicles 
 
 -- 4. Find the dealership where a certain car is located, by VIN 
 

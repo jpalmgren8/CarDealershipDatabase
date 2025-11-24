@@ -113,7 +113,7 @@ CREATE TABLE `sales_contracts` (
 `vin` int,
 
 FOREIGN KEY (vin)
-        REFERENCES vehicle(vin)
+        REFERENCES vehicles(vin)
 
 );
 
@@ -122,6 +122,6 @@ CREATE TABLE `lease_contracts` (
 `vin` int,
 
 FOREIGN KEY (vin)
-        REFERENCES vehicle(vin)
+        REFERENCES vehicles(vin)
 
 );
